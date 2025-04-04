@@ -1,0 +1,28 @@
+04-04-2025 14:50:59.05 - INFO - Started validation of input parameters...
+04-04-2025 14:50:59.05 - INFO - Completed validation of input parameters
+04-04-2025 14:50:59.05 - INFO - Started handling of duplicates... Method: "AUTO"
+04-04-2025 14:50:59.05 - DEBUG - 0 missing values found
+04-04-2025 14:50:59.05 - INFO - Completed handling of duplicates in 0.003385 seconds
+04-04-2025 14:50:59.06 - INFO - Started handling of missing values...
+04-04-2025 14:50:59.06 - INFO - Found a total of 5 missing value(s)
+04-04-2025 14:50:59.06 - INFO - Started handling of NUMERICAL missing values... Method: "MEAN"
+04-04-2025 14:50:59.06 - INFO - Started handling of CATEGORICAL missing values... Method: "MOST_FREQUENT"
+04-04-2025 14:50:59.07 - DEBUG - MOST_FREQUENT imputation of 2 value(s) succeeded for feature "Name"
+04-04-2025 14:50:59.08 - DEBUG - MOST_FREQUENT imputation of 2 value(s) succeeded for feature "Salary"
+04-04-2025 14:50:59.08 - DEBUG - MOST_FREQUENT imputation of 1 value(s) succeeded for feature "Joining_Date"
+04-04-2025 14:50:59.08 - INFO - Completed handling of missing values in 0.02646 seconds
+04-04-2025 14:50:59.08 - INFO - Started handling of outliers... Method: "WINZ"
+04-04-2025 14:50:59.08 - INFO - Completed handling of outliers in 0.000751 seconds
+04-04-2025 14:50:59.08 - INFO - Started conversion of DATETIME features... Granularity: D
+04-04-2025 14:50:59.09 - INFO - Completed conversion of DATETIME features in 0.0038 seconds
+04-04-2025 14:50:59.09 - INFO - Started encoding categorical features... Method: "LABEL"
+04-04-2025 14:50:59.09 - WARNING - Encoding to LABEL failed for feature "Department"
+04-04-2025 14:50:59.09 - WARNING - Encoding to LABEL failed for feature "Joining_Date"
+04-04-2025 14:50:59.09 - WARNING - Encoding to LABEL failed for feature "Salary"
+04-04-2025 14:50:59.10 - WARNING - Encoding to LABEL failed for feature "Age"
+04-04-2025 14:50:59.10 - WARNING - Encoding to LABEL failed for feature "Name"
+04-04-2025 14:50:59.10 - INFO - Completed encoding of categorical features in 0.007438 seconds
+04-04-2025 14:50:59.10 - INFO - Started feature type conversion...
+04-04-2025 14:50:59.10 - DEBUG - Conversion to type INT succeeded for feature "ID"
+04-04-2025 14:50:59.10 - INFO - Completed feature type conversion for 1 feature(s) in 0.001726 seconds
+04-04-2025 14:50:59.10 - INFO - AutoClean process completed in 0.061482 seconds
